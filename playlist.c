@@ -25,7 +25,7 @@ void print(struct playlist_t* pl) {
     printf("%s by %s\n", ptr->song->title, ptr->song->artist);
     ptr = ptr->next;
   }
-} 
+}
 
 int main(int argc, char* argv[]) {
 
